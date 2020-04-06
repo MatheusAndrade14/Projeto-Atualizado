@@ -1,0 +1,218 @@
+
+body {
+background:white ;
+overflow-x:hidden;
+text-align: center;
+
+font: normal 15pt arial;
+
+}
+html,body{
+  padding: 0;
+  margin: 0;
+}
+
+#box1{
+  
+  height: 100vh;
+  width: 100%;
+  background: url("C:/Users/mathe/Documents/My Project/matheus/Matheus-Andrade-master/img1/1.jpg");
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+}
+#box2{
+  border-top: 10px white;
+  height: 100vh;
+  width: 100%;
+  background: url("C:/Users/mathe/Documents/My Project/matheus/Matheus-Andrade-master/img1/2.jpg");
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+}
+#box3{
+  border-top: 10px white;
+  height: 100vh;
+  width: 100%;
+  background: url("C:/Users/mathe/Documents/My Project/matheus/Matheus-Andrade-master/img1/3.jpg");
+  background-size: cover;
+  display: table;
+  background-attachment: fixed;
+}
+#menu{
+  color: black;
+  width: 100%;
+  height: 60px;
+  background: white;
+  justify-content: center;
+  display: inline-flex;
+  position: relative;
+
+
+}
+html, body{
+
+height: 100%;
+opacity: 1.0;
+-webkit-transition: background 1s linear;
+-moz-transition: background 1s linear;
+-o-transition: background 1s linear;
+-ms-transition: background 1s ;
+transition: background 1s linear;
+}
+header {
+color:white;
+text-align:center;
+}
+
+.section{
+text-align:center;
+background:white;
+border-radius:50px;
+padding:15px;
+width:450px;
+margin :auto;
+box-shadow: 5px 5px 10px rgba(0,0,0,0.363)
+}
+#imagem{
+border-radius: 20px;
+
+}
+
+#foto{
+padding:18px;
+text-align:center;
+
+}
+
+footer{
+color:white;
+text-align:center;
+font-style:italic;
+}
+::-webkit-scrollbar {
+    background: #808080 ;
+    height: 8px;
+    width: 8px;}
+	::-webkit-scrollbar-thumb {
+    background: #f7f7f7 ;
+    border-radius: 5px;
+}
+
+	::-webkit-scrollbar-track {
+    border-radius: 5px;
+}
+.btn{
+border-radius: 9px;
+ background-color: #5cb85c;
+ color: white;
+ font-size: 15px;
+ border: none;
+}
+.btn:hover{
+  background: #7fcc7f;
+}
+.btnSair{
+  border-radius: 9px;
+   background-color: #ff4040;
+   color: white;
+   font-size: 15px;
+   border: none;
+  }
+  .btnSair:hover{
+    background: #d85656;
+  }
+.form2{
+text-align: center;
+}
+.campos{
+border-radius:10px;
+border:solid 1px;
+border-color: #DCDCDC;
+height:auto;
+width:auto;
+text-align: center;
+
+}
+#Nascimento{
+width: 135px;
+}
+.IMCdiv{
+  margin-top: 5px;
+  justify-content: center;
+border: none;
+color: white;
+ display: inline-flex;
+ width: 98%;
+
+
+}
+
+
+#normal{
+
+background-color: #33FF33;
+border-radius: 15px;
+float: left;
+
+
+
+}
+#acima{
+
+  background-color: #0275d8;
+  border-radius: 15px;
+  margin-left: 1%;
+
+}
+#obesidade{
+
+  background-color: #f0ad4e;
+  border-radius: 15px;
+  float: left;
+}
+#morbida{
+
+  background-color: #d9534f;
+  border-radius: 15px;
+  margin-left: 1%;
+}
+.tabela{
+  justify-content: center;
+  margin: auto;
+  border: solid 1px;
+  border-radius: 5px;
+  width: 50%;
+  border-collapse: separate;
+}
+
+
+#subirTopo {
+text-decoration: none;
+border-radius:10px;
+background: white;
+bottom: 30px;
+right: 30px;
+color: #fff;
+text-align: center;
+cursor: pointer;
+padding: 15px;
+font-size: 15px;
+font-weight: bold;
+text-transform: uppercase;
+position: fixed;
+border: 0;
+font-family: sans-serif;
+opacity: .8;
+}
+
+#subirTopo:hover {
+opacity:1;
+}
+
+
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+
+    outline: 0;
+}

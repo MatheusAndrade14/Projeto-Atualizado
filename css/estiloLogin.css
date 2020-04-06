@@ -1,0 +1,91 @@
+body {
+    background-image: url("C:/Users/mathe/Documents/My Project/matheus/Matheus-Andrade-master/img/paisagem.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font: normal 15pt arial;
+    
+    }
+#Login{
+width:450px;
+height:auto;
+
+background-color:white;
+border-radius:30px;
+text-align:center;
+
+}
+#menu{
+ 
+  color: black;
+  width: 100%;
+  height: 60px;
+  background: white;
+  justify-content: center;
+  display: inline-flex;
+  position: relative;
+  
+
+}
+a{
+    color: gray;
+}
+a:hover{
+    color: rgb(94, 93, 93);
+
+}
+footer{
+color:white;
+text-align:center;
+font-style:italic;
+}
+::-webkit-scrollbar {
+    background: #808080 ;
+    height: 8px;
+    width: 8px;}
+	::-webkit-scrollbar-thumb {
+    background: #f7f7f7 ;
+    border-radius: 5px;
+}
+
+	::-webkit-scrollbar-track {
+    border-radius: 5px;
+}
+.campos{
+border-radius:10px;
+border:solid 1px;
+border-color: #DCDCDC;
+height:auto;
+width:auto;
+text-align: center;
+}
+.section{
+text-align:center;
+background:white;
+border-radius:50px;
+padding:15px;
+width:450px;
+margin :auto;
+margin-top: 10%;
+box-shadow: 5px 5px 10px rgba(0,0,0,0.363)
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+}
+.btn{
+border-radius: 9px;
+ background-color: #5cb85c;
+ color: white;
+ font-size: 15px;
+ border: none;
+}
+.btn:hover{
+    background: #7fcc7f;
+}
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    
+    outline: 0;
+}
+    
